@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family-Outfit: "Outfit", sans-serif;
+  --font-family-Young: "Young Serif", serif;
+}
+
+
+
+.custom-list {
+  list-style-type: none; 
+  padding-left: 1.5rem; 
+  padding-left: 1.5rem; 
+}
+
+.custom-list li {
+  position: relative; 
+  margin-bottom: 0.75rem; 
+  color: #2d1919; 
+}
+
+.custom-list li::before {
+  content: '•'; 
+  color: #3e2108; 
+  font-weight: bold; 
+  position: absolute; 
+  left: -1.2rem;
+}
