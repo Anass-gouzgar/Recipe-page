@@ -10,7 +10,7 @@ Nutrition = dynamic(() => import("./components/Nutrition"),{loading:() => <p></p
 export default function Home() {
   return (
     <main className="bg-bgColor md:p-32 mb-16">
-      <div className="max-w-[1000px] rounded-2xl flex flex-col items-center mx-auto md:p-4 bg-white" >
+      <div className="max-w-[800px] rounded-2xl flex flex-col items-center mx-auto md:p-4 bg-white" >
         <Hero />
         <Ingredients />
         <Instructions />     
