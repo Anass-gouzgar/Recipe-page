@@ -19,7 +19,7 @@ const index = () => {
         combines beaten eggs cooked to perfection, optionally filled with your
         choice of cheese, vegetables, or meats.
       </p>
-      <div className="bg-fuchsia-50 rounded-xl px-9 py-6 flex flex-col">
+      <div className="bg-pColor rounded-xl px-9 py-6 flex flex-col">
         <h1 className="text-xl text-fuchsia-950 mb-3 font-medium font-youngSerif">Preparation time</h1>
         {data.map((item, index) => (
           <ul key={index} className="list-disc px-7 font-outfit">

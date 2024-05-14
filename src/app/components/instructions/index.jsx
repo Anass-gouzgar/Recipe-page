@@ -34,7 +34,7 @@ const steps = [
 
 const index = () => {
   return (
-    <main className='p-8'>
+    <section className='p-8 -mt-10'>
         <h1 className="text-3xl font-youngSerif text-Nutmeg">
           {" "}
           Instructions
@@ -45,7 +45,8 @@ const index = () => {
             <li key={index} className=" font-outfit mb-3 text-sm text-gray-500  "><span className='font-medium text-black'>{step.title}{": "}</span>{step.description}</li>
           
         ))}</ul>
-    </main>
+        <hr className='mt-7'/>
+    </section>
   );
 }
 

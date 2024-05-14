@@ -10,7 +10,7 @@ const Ingredients = [
 
 const Index = () => {
   return (
-    <section className="p-8">
+    <section className=" w-full p-8">
       <h1 className="text-3xl font-youngSerif text-Nutmeg">Ingredients</h1>
       <ul className="custom-list p-8  ">
         {Ingredients.map((item, index) => (
@@ -19,7 +19,7 @@ const Index = () => {
           </li>
         ))}
       </ul>
-      <hr />
+      <hr className="-mt-4" />
     </section>
   );
 };

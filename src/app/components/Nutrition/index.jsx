@@ -2,8 +2,8 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-youngSerif text-Nutmeg"> Nutrition</h1>
+    <div className="w-full -mt-10 p-8">
+      <h1 className="text-3xl text-Nutmeg font-youngSerif "> Nutrition</h1>
       <p className="mt-3 font-outfit text-gray-600">
         {" "}
         The table below shows nutritional values per serving without the

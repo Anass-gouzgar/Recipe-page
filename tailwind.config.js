@@ -15,11 +15,12 @@ module.exports = {
       colors: {
         Nutmeg: "hsl(14, 45%, 36%)",
         DarkRaspberry: "hsl(332, 51%, 32%)",
+        bgColor: " #F3E5D8",
+        pColor: "#FFF8FC",
       },
       fontFamily: {
         outfit: ["var(--font-family-Outfit)"],
         youngSerif: ["var(--font-family-Young)"],
-
       },
     },
   },
